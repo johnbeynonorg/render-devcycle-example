@@ -1,8 +1,15 @@
+# This render.yaml is used for the STAGING envionment
+# and for preview environments created 
+#
+# For production see:
+# https://github.com/johnbeynonorg/render-devcycle-example-prod
+
 previewsEnabled: true
 services:
   - type: web
     name: my-amazing-app
     plan: free
     env: ruby
+    autoDeploy: true # this is the default but included for
     buildCommand: ./render-build.sh
     startCommand: ./render-start.sh
