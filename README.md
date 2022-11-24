@@ -1,5 +1,7 @@
-Skeleton Ruby App using Sinatra
+Render Dev Cycle Example
 
-1. Fork the repo
-2. From Render dashboard, New + > Blueprint and paste the repo URL as the public repo (bottom of screen)
-3. Fill in details and deploy.
+This repo is to demonstrate how you might accomplish a
+
+PR > Staging > Production
+
+environment on Render.
