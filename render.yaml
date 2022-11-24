@@ -1,7 +1,7 @@
 previewsEnabled: true
 services:
   - type: web
-    name: sample-ruby-app
+    name: my-amazing-app
     plan: free
     env: ruby
     buildCommand: ./render-build.sh
