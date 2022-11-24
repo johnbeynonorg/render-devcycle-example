@@ -2,5 +2,5 @@
 require 'sinatra'
 
 get '/' do
-  'Hello from Render in somenewwork.
+  'Hello from Render in somenewwork.'
 end
